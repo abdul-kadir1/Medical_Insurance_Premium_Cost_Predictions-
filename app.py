@@ -13,7 +13,7 @@ st.image(Img_resized, caption="Health Insurance")
 
 # Load the trained model
 with open('pipe.pkl', 'rb') as model_file:
-    model = pickle.load(model_file)
+    model = pickle.dumps(model_file)
 
 # Set up title and description
 st.title('Health Insurance Cost Prediction Model')
