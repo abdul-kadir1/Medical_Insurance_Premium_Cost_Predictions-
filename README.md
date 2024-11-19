@@ -12,9 +12,9 @@ To make the model accessible, I developed an interactive Streamlit app where use
 
 [Health Insurance Cost Prediction App](https://insurancecost.streamlit.app/#health-insurance-cost-prediction-model)
 ## Team Details:
-Team Leader: Abdul Kadir
-Team Size: 13 members
-Mentor: Mayank Singh Sir, Data Scientist at DCS Company
+###### Team Leader: Abdul Kadir
+###### Team Size: 13 members
+###### Mentor: Mayank Singh Sir, Data Scientist at DCS Company
 
 ## Objective:
 The goal of this project is to understand how different factors affect health insurance premiums and provide a predictive tool for future users. The application is user-friendly and allows individuals to enter their health data to estimate their potential insurance costs.
