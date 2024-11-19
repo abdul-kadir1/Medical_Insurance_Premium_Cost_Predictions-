@@ -1,19 +1,16 @@
-# import sklearn
 import streamlit as st
 import pickle
 import numpy as np
 from PIL import Image
-
-  
 
 # Open image for display
 Img = Image.open('health_insu.jpg')
 Img_resized = Img.resize((1000, 250))  # Resize image to fit the app
 st.image(Img_resized, caption="Health Insurance")
 
-# Load the trained model
+# Load the trained model (instead of pickling the file object, load the model directly)
 with open('pipe.pkl', 'rb') as model_file:
-    model = pickle.dumps(model_file)
+    model = pickle.load(model_file)  # Load the model from the file
 
 # Set up title and description
 st.title('Health Insurance Cost Prediction Model')
@@ -51,8 +48,3 @@ if st.button('Predict'):
 
     # Step 5: Display the prediction result
     st.write(f'Insurance Cost: {prediction[0]}')
-
-
-
-
-
