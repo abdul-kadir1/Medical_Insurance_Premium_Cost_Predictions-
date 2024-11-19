@@ -34,18 +34,18 @@ To further improve the model's accuracy, we used the Random Forest Regressor, an
 After training all three models, we compared their performance and selected the one that best predicted the insurance costs based on the test data.
 
 ## Technologies Used:
-Python : for building the model and app.
-Scikit-learn for machine learning (Linear Regression, Decision Tree Regressor, Random Forest Regressor).
-Streamlit for creating the interactive web app.
-NumPy, Pandas for data manipulation and processing.
-Matplotlib/Seaborn for visualizations.
+###### Python : for building the model and app.
+###### Scikit-learn for machine learning (Linear Regression, Decision Tree Regressor, Random Forest Regressor).
+###### Streamlit for creating the interactive web app.
+###### NumPy, Pandas for data manipulation and processing.
+###### Matplotlib/Seaborn for visualizations.
 
 ## How to Use the App:
 Go to the live app link: 
 [Health Insurance Cost Prediction App](https://insurancecost.streamlit.app/#health-insurance-cost-prediction-model)
-Enter your health details (age, sex, weight, BMI, etc.) into the provided input fields.
-Click on the "Predict" button to see your estimated health insurance cost.
-You can adjust the inputs and try various combinations to see how different factors affect the predicted cost.
+###### Enter your health details (age, sex, weight, BMI, etc.) into the provided input fields.
+###### Click on the "Predict" button to see your estimated health insurance cost.
+###### You can adjust the inputs and try various combinations to see how different factors affect the predicted cost.
 
 ## Acknowledgments:
 I would like to express my gratitude to our mentor, Mayank Singh Sir, for his guidance and support throughout the project. A special thanks to my team members for their dedication and hard work. Without their collaboration, this project wouldn’t have been possible.
