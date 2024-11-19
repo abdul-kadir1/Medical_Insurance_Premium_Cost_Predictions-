@@ -341,7 +341,7 @@ model_file_path = 'C:\\College project\\Health_insurance\\pipe.pkl'
 if os.path.exists(model_file_path):
     try:
         with open(model_file_path, 'rb') as model_file:
-            model = pickle.load(model_file)  # Correct method to load the model
+            model = pickle.dumps(model_file)  # Correct method to load the model
         st.success("Model loaded successfully!")
     except Exception as e:
         st.error(f"Error loading model: {e}")
