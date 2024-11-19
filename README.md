@@ -10,7 +10,7 @@ The core of this project is a machine learning model trained on health-related d
 ### Interactive Web App: 
 To make the model accessible, I developed an interactive Streamlit app where users can input their details and get personalized insurance cost predictions. The app is live and can be accessed through the following link:
 
-[Health Insurance Cost Prediction App]([UR](https://insurancecost.streamlit.app/#health-insurance-cost-prediction-model)L)
+[Health Insurance Cost Prediction App]((https://insurancecost.streamlit.app/#health-insurance-cost-prediction-model))
 ## Team Details:
 ### Team Leader: Abdul Kadir
 #### Team Size: 13 members
@@ -42,7 +42,7 @@ After training all three models, we compared their performance and selected the 
 
 ## How to Use the App:
 #### Go to the live app link: 
-[Health Insurance Cost Prediction App]([UR](https://insurancecost.streamlit.app/#health-insurance-cost-prediction-model)L)
+[Health Insurance Cost Prediction App]((https://insurancecost.streamlit.app/#health-insurance-cost-prediction-model))
 #### Enter your health details (age, sex, weight, BMI, etc.) into the provided input fields.
 #### Click on the "Predict" button to see your estimated health insurance cost.
 #### You can adjust the inputs and try various combinations to see how different factors affect the predicted cost.
@@ -51,5 +51,5 @@ After training all three models, we compared their performance and selected the 
 I would like to express my gratitude to our mentor, Mayank Singh Sir, for his guidance and support throughout the project. A special thanks to my team members for their dedication and hard work. Without their collaboration, this project wouldn’t have been possible.
 
 ## Demo:
-Check out the live demo of our Health Insurance Cost Prediction Model here:  [Health Insurance Cost Prediction App]([UR](https://insurancecost.streamlit.app/#health-insurance-cost-prediction-model)L)
+Check out the live demo of our Health Insurance Cost Prediction Model here:  [Health Insurance Cost Prediction App]((https://insurancecost.streamlit.app/#health-insurance-cost-prediction-model))
 
